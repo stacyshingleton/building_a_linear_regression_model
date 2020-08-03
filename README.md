@@ -1,19 +1,33 @@
-# Module 1 Final Project
 
-## Stacy Shingleton
+## Objective:
 
-### Objective:
+Import, clean, visualize and create a multivariate linear regression model that will accurately predict home sale prices in King County Washington. analyze [King County Housing data](kc_house_data.csv),
 
-Import, clean and analyze data from *kc_house_data.csv* to ultimately generate a multivariate linear regression that will accurately predict home sale prices.
 
-### The dataset 
+## The dataset 
 
-*kc_house_data.csv* is a data set that contains home sale prices from King County, Washington state, between May 2014 and May 2015. The dataset contains values which further describe each home sold, seperated into columns that are defined within the *column_names.md* file.
+The [King County Housing data](kc_house_data.csv) is a modified data set originating from [kaggle.com](https://www.kaggle.com/harlfoxem/housesalesprediction). The dataset contains a number of features which describe each home sold, such as the number of bedrooms, bathrooms and floors, or square footage of the home, the lot, and the basement. Total, there are 21 features to describe each home, and over 20K homes listed. Descriptions of each feature can be found [here.](column_names.md)
 
-### Deliverables:
 
-1. A Jupyter notebook, *ModuleOneProject.ipynb*, containing all code used for the project, including comments that explain each block of code
-2. A slide presentation, *presentation.pdf*, created for non-technical stake holders to descibe the process and results of the project
-3. A video walkthrough of the non-technical slide presentation
-4. A technical blog post describing the steps and outcome of the project, *https://medium.com/@stacyshingleton/king-county-house-sales-a524bc0e5cf*
+## Data Analysis
 
+![](images/home_prices_by_bathrooms.png)
+
+![](images/home_prices_by_bedrooms.png)
+
+![](images/zipcodes_heat_map.png)
+
+![](images/zipcodes_highest_avg_sale_price.png)
+
+![](images/zipcodes_highest_cum_sale_price.png)
+
+![](images/zipcodes_highest_number_sales.png)
+
+
+## Deliverables:
+
+[Jupyter_Notebook](ModuleOneProject.ipynb)
+
+[Summary_Slides](presentation.key)
+
+[Blog_Post](https://medium.com/@stacyshingleton/king-county-house-sales-a524bc0e5cf)
